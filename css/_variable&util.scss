@@ -1,0 +1,30 @@
+$VERT: #4e6131;
+$JAUNE: yellow;
+$VERTC: lighten($VERT, 25%);
+
+@font-face {
+  font-family: 'Vegur';
+  src: url('../fonts/Vegur-Regular-webfont.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VegurBold';
+  src: url('../fonts/Vegur-Bold-webfont.woff');
+  font-weight: bold;
+}
+
+* {
+  font-family: Vegur, serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+}

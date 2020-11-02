@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Vegur';
+  src: url("../fonts/Vegur-Regular-webfont.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VegurBold';
+  src: url("../fonts/Vegur-Bold-webfont.woff");
+  font-weight: bold;
+}
+
+* {
+  font-family: Vegur, serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.cadre_jaune_menu, .cadre_jaune, .cadre_vert_menu, .cadre_vert, .news_legume, .actu_group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.filtre_vert {
+  background-color: #4e6131;
+  color: white;
+}
+
+h1, h2, h3, h4 {
+  font-family: VegurBold, serif;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.menu_top {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin: 0 10px;
+}
+
+.logo {
+  width: 80%;
+  margin: 20px auto 0 auto;
+}
+
+.menu_mid {
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.8rem;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  height: 50px;
+}
+
+.mini_label {
+  width: 15%;
+}
+
+.cadre_jaune_menu, .cadre_jaune {
+  background-color: yellow;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+
+.cadre_vert_menu, .cadre_vert {
+  background-color: #91b062;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+
+.row {
+  height: 25px;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -5px;
+}
+
+.news_legume {
+  margin-top: 15%;
+}
+
+.icone_legume {
+  min-width: 40%;
+}
+
+.actu {
+  min-width: 40%;
+  margin: 10px;
+}
+
+.actu_group p {
+  margin: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */

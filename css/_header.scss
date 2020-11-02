@@ -1,0 +1,77 @@
+.filtre_vert{
+  background-color: $VERT;
+  color: white;
+}
+
+h1,h2,h3,h4{
+  font-family: VegurBold, serif;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 10px;
+  color: white;
+}
+.menu_top{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.logo{
+  width: 80%;
+  margin: 20px auto 0 auto;
+}
+
+.menu_mid{
+  display: flex;
+  font-size: 0.8rem;
+  align-items: stretch;
+  height: 50px;
+}
+
+.mini_label{
+  width: 15%;
+}
+
+.cadre_jaune_menu, .cadre_jaune{
+  background-color: $JAUNE;
+  flex-grow: 1;
+  @extend %flex_center;
+}
+
+.cadre_vert_menu, .cadre_vert{
+  background-color: $VERTC;
+  flex-grow: 1;
+  @extend %flex_center;
+}
+//News
+
+.row{
+  height: 25px;
+  display: flex;
+  margin-top: -5px;
+}
+
+.news_legume {
+  @extend %flex_center;
+  margin-top: 15%;
+}
+
+.icone_legume{
+  min-width: 40%;
+}
+
+.actu{
+  min-width: 40%;
+  margin: 10px;
+}
+
+.actu_group{
+  @extend %flex_center;
+  p{
+    margin: 10px;
+  }
+}
+
+
